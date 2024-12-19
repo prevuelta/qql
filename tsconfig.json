@@ -1,0 +1,19 @@
+{
+  "ts-node": {
+    "compilerOptions": {
+      "module": "es2022"
+    }
+  },
+  "compilerOptions": {
+    "target": "es2022",
+    "module": "es2022",
+    "outDir": "dist",
+    "rootDir": "src",
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "*": ["node_modules/*", "src/types/*"]
+    }
+  },
+  "include": ["src/**/*"]
+}
